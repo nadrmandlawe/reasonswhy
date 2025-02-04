@@ -71,7 +71,7 @@ export function Header() {
           className="flex items-center gap-2 text-sm font-medium"
         >
           <Heart className="w-5 h-5 text-red-500 transition-all" />
-          <span className="hidden md:inline">Need Help?</span>
+          <span className="text-sm">Need Help?</span>
         </Button>
     
         <ThemeToggle />

@@ -92,7 +92,7 @@ export function SearchToolbar({
                         className="text-sm font-medium gap-2"
                     >
                         <Heart className="text-red-500  h-[1.2rem] w-[1.2rem] transition-all" />
-                        <span className="hidden md:inline">Need Help?</span>
+                        <span className="text-xs">Need Help?</span>
                     </Button>
             </div>
           </div>

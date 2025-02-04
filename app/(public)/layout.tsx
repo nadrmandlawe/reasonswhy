@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { GlobalConfetti } from "@/components/GlobalConfetti";
 
 export default function PublicLayout({
   children,
@@ -13,7 +14,7 @@ export default function PublicLayout({
             {children}
           </main>
       <Footer />
-
+    <GlobalConfetti/>
     </div>
   );
 }
