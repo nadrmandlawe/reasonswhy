@@ -13,6 +13,21 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Reasons Wall",
   description: "Share your reasons with the world",
+  icons: {
+    icon: [
+      {
+        url: "/logo.png",
+        href: "/logo.png",
+      }
+    ],
+    apple: [
+      {
+        url: "/logo.png",
+        sizes: "180x180",
+        type: "image/png",
+      }
+    ],
+  },
 };
 
 export default function RootLayout({
