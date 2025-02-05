@@ -3,6 +3,7 @@ import "./globals.css";
 import Providers from "./providers";
 import { Metadata } from "next";
 import { cn } from "@/lib/utils";
+import { GlobalConfetti } from "@/components/GlobalConfetti";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -39,7 +40,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn(spaceGrotesk.className, 'min-h-dvh')}>
         <Providers>
-          {children}
+          <main>{children}</main>
+          <GlobalConfetti />
         </Providers>
       </body>
     </html>
