@@ -77,13 +77,13 @@ export function FlagDialog({ open, onOpenChange, reasonId }: FlagDialogProps) {
           </div>
         </div>
         <DialogFooter className="gap-4">
-          <Button
+          {/* <Button
             variant="outline"
             onClick={() => onOpenChange(false)}
             disabled={isSubmitting}
           >
             Cancel
-          </Button>
+          </Button> */}
           <Button 
             onClick={handleSubmit}
             disabled={isSubmitting}

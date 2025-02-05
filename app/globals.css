@@ -122,6 +122,22 @@ html, body {
   @apply bg-black/80 dark:bg-white/80;
 }
 
+@media only screen and (hover: none) and (pointer: coarse) {
+
+  input,
+  select,
+  textarea {
+    font-size: 11px;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    font-size: 16px;
+  }
+}
+
+
 @layer base {
   * {
     @apply border-border;
