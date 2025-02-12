@@ -48,7 +48,7 @@ ReasonsWhy was created with a simple yet powerful purpose: to remind us of the c
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/reasons-wall.git
+git clone https://github.com/nadrmandlawe/reasonswall.git
 ```
 
 2. Install dependencies:
@@ -83,7 +83,7 @@ pnpm dev
 
 The application is optimized for deployment on [Vercel](https://vercel.com). 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/reasons-wall)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nadrmandlawe/reasonswall)
 
 ## 📝 Environment Variables
 
